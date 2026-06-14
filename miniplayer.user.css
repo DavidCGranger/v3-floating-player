@@ -7,7 +7,7 @@
 @license        MIT
 ==/UserStyle== */
 
-@-moz-document domain("*://*.youtube.com/watch*") {
+@-moz-document url-prefix("https://www.youtube.com/watch") {
     #masthead-positioner-container:has(#masthead-appbar-container.showing-content) ~ #page-container .player-api,
     #masthead-positioner-container:has(#masthead-appbar-container.showing-content) ~ #page-container .html5-video-player {
         overflow: visible !important;
